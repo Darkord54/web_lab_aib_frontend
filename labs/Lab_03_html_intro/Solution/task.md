@@ -23,5 +23,5 @@ __итоговый код:__
 </html>
 ```
 Получили:
-![ALT](images/RABota.png)
+![ALT](images/Sile.png)
 
