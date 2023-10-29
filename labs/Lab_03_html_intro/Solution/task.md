@@ -22,4 +22,6 @@ __итоговый код:__
 </body>
 </html>
 ```
- 
+Получили:
+![ALT](images/RABota.png)
+
