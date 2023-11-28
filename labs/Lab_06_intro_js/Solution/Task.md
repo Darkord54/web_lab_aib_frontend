@@ -191,7 +191,7 @@ console.log(salary);
 </body>
 </html>
 ```
-## вывод метода get_inform в alert
-![](Images/Alert_Zad5.PNG)
+## В результате alert(apple) появляется окно
+FIO: Pavlov Nikita Sergeevich 20 2004 hobby - sleep
 ## вывод в console
 ![](Images/CS_Zad5.PNG)
