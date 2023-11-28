@@ -1,5 +1,5 @@
-### задание 1 Работа с переменными
-код html
+# задание 1 Работа с переменными
+## код html
 ```
 <!DOCTYPE html>
 <html lang="ru">
@@ -22,26 +22,22 @@
 </html>
 ```
 
-##### окно появляющееся из-за alert(apple)
-![alert_apple](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/alert_apple_zadanie1.PNG)
-##### окно появляющееся из-за alert(conditions)
-![alert_conditions](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/alert_condition_zadanie1.PNG)
-##### вывод в console
-![console](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie1.PNG)
-
-#### Вопросы
+## В результате alert(apple) появляется окно
+Потвердите действие : 10
+## В результате alert(conditions) появляется окно 
+Потвердите действие : stroka
+# Ответы на вопросы
 1. Через какой оператор Вы объявили переменую? 
 * через оператор let
 2. Какие доступны операторы для объявления переменных? В чём их отличия?
-* let - самый крутой крч 
-* const - нельзя изменить значение переменной
-* var - устаревший вариант. допускает повторное объявление, не может быть блочной или локальной внутри цикла. переменная var считается объявленной самого начала исполнения функции вне зависимости от того, в каком месте функции реально находятся их объявления (при условии, что она не находится во вложенной функции). поэтому принято их писать в начале кода программы.
+* const определяет константы, которые нельзя менять после определения var определяет простую, глобальную, внеблочную переменную.
+* let переменные имеют блочную видимость, а ещё их нельзя объявить повторно вне зависимости от того, в каком месте функции реально находятся(при условии, что она не находится во вложенной функции). поэтому принято их писать в начале кода программы.
 3. Что происходит при вызове alert()?
-* выводится значение переменной в всплывающем окне с просьбой подтвердить действие
+* Alert выводит нам бесячее сообщение в браузере, в котором можно что то обустроить
 4. Как Вы думаете для чего может использоваться console.log()
-* для того чтобы было легче понть где ошибки, тк если использовать просто alert(), то вывод не фиксируется в консоли. или для другой работы в консоли
+* для того чтобы было легче понять где ошибки, тк если использовать просто alert(), то вывод не фиксируется в консоли. или для другой работы в консоли
 
-### задание 2 Магия конкатенации
+# задание 2 Магия конкатенации
 код
 ```
 <!DOCTYPE html>
@@ -69,10 +65,10 @@
 </body>
 </html>
 ```
-##### вывод в console
+## вывод в console
 ![console_zadanie2](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie2.PNG)
 
-### задание 3 работа с массивами
+# задание 3 работа с массивами
 код
 ```
 <!DOCTYPE html>
@@ -94,10 +90,10 @@ console.log(array);
 </body>
 </html>
 ```
-##### вывод в console
+## вывод в console
 ![console_zadanie3](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie3.PNG)
 
-### задание 4 Работа с функциями
+# задание 4 Работа с функциями
 код
 ```
 <!DOCTYPE html>
@@ -144,10 +140,10 @@ console.log(random_word());
 </body>
 </html>
 ```
-##### вывод в console
+## вывод в console
 ![console_zadanie4](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie4.PNG)
 
-### задание 5 Работа с объектами
+# задание 5 Работа с объектами
 код
 ```
 <!DOCTYPE html>
