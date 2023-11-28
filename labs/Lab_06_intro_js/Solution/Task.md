@@ -66,7 +66,7 @@
 </html>
 ```
 ## Вывод в console
-![](Images/CS_Zad2.png)
+![](Images/CS_Zad2.PNG)
 
 # Задание 3: Работа с массивами
 код
@@ -91,7 +91,7 @@ console.log(array);
 </html>
 ```
 ## Вывод в console
-![console_zadanie3](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie3.PNG)
+![](Images/CS_Zad3.PNG)
 
 # Задание 4: Работа с функциями
 код
@@ -141,8 +141,7 @@ console.log(random_word());
 </html>
 ```
 ## Вывод в console
-![console_zadanie4](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie4.PNG)
-
+![](Images/CS_Zad4.PNG)
 # Задание 5: Работа с объектами
 код
 ```
@@ -192,7 +191,7 @@ console.log(salary);
 </body>
 </html>
 ```
-##### вывод метода get_inform в alert
-![alert_zadanie5](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/alert_zadani5.PNG)
-##### вывод в console
-![console_zadanie5](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie5.PNG)
+## вывод метода get_inform в alert
+![](Images/Alert_Zad5.PNG)
+## вывод в console
+![](Images/CS_Zad5.PNG)
