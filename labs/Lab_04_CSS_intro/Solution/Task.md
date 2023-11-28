@@ -80,7 +80,9 @@ p{
     margin-bottom: 0;
     text-align: center;
 }
-```
 
+
+```
 Что вышло в итоге:
 ![](Images/test_1.png)
+
