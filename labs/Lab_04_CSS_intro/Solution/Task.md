@@ -1,6 +1,6 @@
 # ЛАБА 4
 
-![](images/test_1.png)
+![](Images/Test_1.png)
 
 А вот и код под это дело:
 
