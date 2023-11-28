@@ -1,5 +1,5 @@
-# задание 1 Работа с переменными
-## код html
+# Задание 1: Работа с переменными
+## Код html
 ```
 <!DOCTYPE html>
 <html lang="ru">
@@ -37,8 +37,8 @@
 4. Как Вы думаете для чего может использоваться console.log()
 * для того чтобы было легче понять где ошибки, тк если использовать просто alert(), то вывод не фиксируется в консоли. или для другой работы в консоли
 
-# задание 2 Магия конкатенации
-код
+# Задание 2: Магия конкатенации
+## Код
 ```
 <!DOCTYPE html>
 <html lang="ru">
@@ -65,10 +65,10 @@
 </body>
 </html>
 ```
-## вывод в console
+## Вывод в console
 ![console_zadanie2](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie2.PNG)
 
-# задание 3 работа с массивами
+# Задание 3: Работа с массивами
 код
 ```
 <!DOCTYPE html>
@@ -90,10 +90,10 @@ console.log(array);
 </body>
 </html>
 ```
-## вывод в console
+## Вывод в console
 ![console_zadanie3](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie3.PNG)
 
-# задание 4 Работа с функциями
+# Задание 4: Работа с функциями
 код
 ```
 <!DOCTYPE html>
@@ -140,10 +140,10 @@ console.log(random_word());
 </body>
 </html>
 ```
-## вывод в console
+## Вывод в console
 ![console_zadanie4](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie4.PNG)
 
-# задание 5 Работа с объектами
+# Задание 5: Работа с объектами
 код
 ```
 <!DOCTYPE html>
