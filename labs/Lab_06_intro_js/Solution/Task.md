@@ -66,7 +66,7 @@
 </html>
 ```
 ## Вывод в console
-![console_zadanie2](https://github.com/OlgaShep/web_lab_aib_frontend/blob/main/labs/Lab_06_intro_js/solution/foto/consolelog_zadanie2.PNG)
+![](Images/CS_Zad2.png)
 
 # Задание 3: Работа с массивами
 код
