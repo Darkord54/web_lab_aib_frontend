@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JS</title>
+</head>
+<body>
+<script>
+    
+    tabs = {
+        firstname: 'Ivan',
+        surname: 'Ivanov',
+        patronim: 'Ivanovic',
+        birthyear: 1986,
+        hobby: 'garage',
+        age: 37,
+
+        method: function(){
+            let temp = ''
+            for(let key in tabs){
+                if (key != 'method'){
+                    temp += tabs[key] + ' '
+                }
+            }
+            alert(temp)
+        }
+    };
+    
+    tabs.method();
+</script>
+</body>
+</html>

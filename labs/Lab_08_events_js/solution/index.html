@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <img id = "kiss" src="img/cat.jpg" alt="kissing" width="300" ">
+    <!--<input id="kiss" src="img/cat.jpg" onclick="kissing()" ="image" width="300">-->
+    
+    <script>
+        var image = document.getElementById("kiss")
+        console.log(image.getAttribute("src"))
+        image.addEventListener("click", function(){
+            if (image.getAttribute("src") === "img/cat.jpg") {
+                image.src = "img/boykissing.gif"
+            } else {
+                image.src = "img/cat.jpg"
+            }
+        })
+    </script>
+
+</body>
+</html>

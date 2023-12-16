@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let coloredFruits = {
+            'apple': 'green',
+            'strawberry': 'red',
+            'blueberry': 'blue',
+            'rasberry': 'light red',
+            'lemon': 'yellow'
+        }
+
+        fruits = Object.keys(coloredFruits)
+        colors = Object.values(coloredFruits)
+
+        for (let key in fruits) {
+            console.log(fruits[key]);
+        }
+
+        for (let key in fruits) {
+            console.log(fruits[key] + ' ' + colors[key]);
+        }
+    </script>
+</body>
+</html>

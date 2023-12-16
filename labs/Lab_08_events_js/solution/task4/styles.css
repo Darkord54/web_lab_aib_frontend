@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div[name='colorStorage'] {
+    width: 100%; 
+    height: 300px; 
+    display: flex;
+    background-color: #fff;
+    /*overflow-x: scroll; 
+    white-space: nowrap; 
+    overflow-y: hidden;*/
+}
+
+div[name='window'] {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+div[name='generateBlock'] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+.colorStorageUnit {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: height 0.7s;
+}
+
+.colorStorageUnit:hover {
+    height: 310px;
+}

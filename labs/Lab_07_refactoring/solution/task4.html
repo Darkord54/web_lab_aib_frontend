@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let groupOfStudents = [{fullName:'Петров А.А.',rating:5},
+    {fullName:'Иванов Б.Б.',rating:3.4},{fullName:'Сидоров Г.Г.',rating:9},
+    {fullName:'Немолодой Д.Д',rating:2},{fullName:'Молодой Е.Е',rating:3.4}];
+
+    let averageRating = 0;
+    let qualityOfStudents = 0;
+    let badStudents = [];
+
+    for (let indexForStudents = 0; indexForStudents < groupOfStudents.length; indexForStudents++) {
+        
+        if (groupOfStudents[indexForStudents].rating > 5) {
+             console.log('Это значение учитываться не будет оно не соответствует допустимым значениям');
+        }
+
+        if (groupOfStudents[indexForStudents].rating < 0) {
+            console.log('Это значение учитываться не будет оно не соответствует допустимым значениям');
+        }
+
+        //Не уверен, но тут может быть перенос строки
+        if (!(groupOfStudents[indexForStudents].rating <= 5 && groupOfStudents[indexForStudents].rating >= 0)) {
+            continue;
+        }
+
+        if (groupOfStudents[indexForStudents].rating < 4) {
+            badStudents.push(groupOfStudents[indexForStudents]);
+        }
+
+        averageRating += groupOfStudents[indexForStudents].rating;
+        qualityOfStudents += 1;
+    }
+
+    averageRating = averageRating / qualityOfStudents;
+
+    console.log('Средняя оценка: ' + averageRating);
+
+    console.log('Плохие студенты:');
+
+    if(badStudents.length === 0) {
+        console.log('Таких нет');
+    }
+
+    badStudents.forEach((index) => {console.log('Фио: ' + index.fullName + '; Оценка: ' + index.rating) });
+    </script>
+</body>
+</html>

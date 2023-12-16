@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var quantityOfWorkers = prompt ('Введите кол-во человек ', undefined);
+
+    if (!isNaN(parseFloat(quantityOfWorkers))) {
+        quantityOfWorkers = parseFloat(quantityOfWorkers);
+    } else {
+        quantityOfWorkers = 0;
+    }
+
+    while (quantityOfWorkers === 0) {
+
+        quantityOfWorkers = prompt ('Введите кол-во человек ', undefined);
+
+        if (!isNaN(parseFloat(quantityOfWorkers))) {
+            quantityOfWorkers = parseFloat(quantityOfWorkers);
+        } else {
+            quantityOfWorkers = 0;
+        }
+
+    }
+
+    var salaryPerWorker = prompt ('Введите зарплату на человека ', undefined);
+
+    if (!isNaN(parseFloat(salaryPerWorker))) {
+        salaryPerWorker = parseFloat(salaryPerWorker);
+    } else {
+        salaryPerWorker = 0;
+    }
+
+    while (salaryPerWorker === 0) {
+
+        salaryPerWorker = prompt ('Введите зарплату на человека ', undefined);
+
+        if (!isNaN(parseFloat(salaryPerWorker))) {
+            salaryPerWorker = parseFloat(salaryPerWorker);
+        } else {
+            salaryPerWorker = 0;
+        }
+
+    }
+
+    alert('Затраты на ЗП ' + quantityOfWorkers*salaryPerWorker);
+    </script>
+</body>
+</html>
