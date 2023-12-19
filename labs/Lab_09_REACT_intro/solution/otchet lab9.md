@@ -28,7 +28,7 @@ function Counter() {
 
 export default Counter;
 ```
-![alt](img/task1.png) ![alt](img/task11.png)
+![alt](images/task1.png) ![alt](images/task11.png)
  #### Задание №2. создать список постов пользоваталей, пост должен принимать имя пользователя, текст в посте, так же добавить возможность лайкать посты и визуально показывать лайнутый пост
 Файл App.js
 ```shell
@@ -83,7 +83,7 @@ export default PostList;
   margin: 0 auto;
 }
 ```
-![alt](img/task2.png)
+![alt](images/task2.png)
 #### Задание №3. Добавить возможность добавления постов и удаления
 Файл App.js
 ```shell
@@ -210,7 +210,7 @@ export default PostList;
   width: 20%;
 }
 ```
-![alt](img/task3.png) ![alt](img/task31.png)
+![alt](images/task3.png) ![alt](images/task31.png)
 #### Задание №4. добавить тэги к постам, выводить отдельно тэги постов без повторения тэгов, добавить возможность фильтровать события по тэгам при нажатии на них, помечать выбранные тэги
 Файл App.js
 ```shell
@@ -382,7 +382,7 @@ export default PostList;
   width: 20%;
 }
 ```
-![alt](img/task4.png) ![alt](img/task41.png)![alt](img/task412.png) 
+![alt](images/task4.png) ![alt](images/task41.png)![alt](img/task412.png) 
 > При нажатии на тег coffee
 > 
-![alt](img/task4123.png)
+![alt](images/task4123.png)
